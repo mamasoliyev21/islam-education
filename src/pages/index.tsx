@@ -1,4 +1,4 @@
-import { Heading, Text } from "@/components";
+import { Heading, Tag, Text } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +9,8 @@ export default function Home() {
      <Text size="l">
       Text
      </Text>
+     <Tag size="m" color="red">Size s == red</Tag>
+     <Tag size="s" color="green">Size s == red</Tag>
     </>
   )
 }
