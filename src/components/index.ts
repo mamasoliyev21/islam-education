@@ -1,0 +1,5 @@
+export * from './heading/heading'
+export * from './heading/heading.module.css'
+export * from './text/text.module.css'
+export * from './text/text'
+export * from './text/text.props'
