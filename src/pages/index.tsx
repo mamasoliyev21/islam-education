@@ -1,8 +1,9 @@
-import { Button, Heading, Input, Tag, Text, TextArea } from "@/components";
+import { Button, Heading, Input, Rating, Tag, Text, TextArea } from "@/components";
 import { useState } from "react";
 
 export default function Home() {
   const [click, setClick] = useState(false);
+  const [rating, setRating] = useState<number>(4)
 
   return (
     <>
@@ -28,6 +29,9 @@ export default function Home() {
 
       <Input placeholder="Enter"/>
       <TextArea placeholder="Message"/>
+      <br />
+
+     <Rating setRating={setRating} rating={rating} isEditabled={true}/>
     </>
   );
 }
