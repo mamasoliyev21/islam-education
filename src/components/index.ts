@@ -1,8 +1,5 @@
 export * from './heading/heading'
-export * from './heading/heading.module.css'
-export * from './text/text.module.css'
 export * from './text/text'
-export * from './text/text.props'
 export * from './tag/tag'
-export * from './tag/tag.props'
-export * from './tag/tag.module.css'
+export * from './button/button'
+

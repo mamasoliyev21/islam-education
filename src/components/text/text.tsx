@@ -1,9 +1,9 @@
 import React from "react";
-import { TextProps } from "..";
+import { TextProps } from "./text.props";
 import styles from "./text.module.css";
 import cn from "classnames";
 
-export const Text = ({ size = "m", children }: TextProps): JSX.Element => {
+export const Text = ({ size = "m", children, ...props }: TextProps): JSX.Element => {
   return (
     <p
       className={cn(styles.p, {
@@ -11,6 +11,7 @@ export const Text = ({ size = "m", children }: TextProps): JSX.Element => {
         [styles.m]: size === "m",
         [styles.l]: size == "l",
       })}
+      {...props}
     >
       {children}
     </p>
