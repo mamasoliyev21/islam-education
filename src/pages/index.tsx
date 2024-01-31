@@ -1,4 +1,4 @@
-import { Button, Heading, Input, Rating, Tag, Text, TextArea } from "@/components";
+import { Button, Card, Heading, Input, Rating, Tag, Text, TextArea } from "@/components";
 import { useState } from "react";
 
 export default function Home() {
@@ -32,6 +32,15 @@ export default function Home() {
       <br />
 
      <Rating setRating={setRating} rating={rating} isEditabled={true}/>
+
+
+     <Card color="white">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quos labore enim similique cum eligendi nesciunt incidunt ducimus illo excepturi, exercitationem aliquid?
+     </Card>
+
+     <Card color="primary">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quos labore enim similique cum eligendi nesciunt incidunt ducimus illo excepturi, exercitationem aliquid?
+     </Card>
     </>
   );
 }

@@ -5,4 +5,5 @@ export * from './button/button'
 export * from './input/input'
 export * from './text-area/text-area'
 export * from './rating/rating'
+export * from './card/card'
 
