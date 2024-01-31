@@ -1,4 +1,4 @@
-import { Button, Heading, Tag, Text } from "@/components";
+import { Button, Heading, Input, Tag, Text, TextArea } from "@/components";
 import { useState } from "react";
 
 export default function Home() {
@@ -22,6 +22,12 @@ export default function Home() {
       >
         Primary
       </Button>
+
+      <br />
+
+
+      <Input placeholder="Enter"/>
+      <TextArea placeholder="Message"/>
     </>
   );
 }
